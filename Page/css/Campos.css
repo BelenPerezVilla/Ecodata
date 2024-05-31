@@ -1,0 +1,56 @@
+.form-register {
+    width: 100%;
+    max-width: 400px; /* Reducir el ancho máximo del formulario */
+    margin: auto;
+    padding: 15px; /* Reducir el relleno interior */
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-register h4 {
+    margin-bottom: 15px; /* Reducir el margen inferior */
+    text-align: center;
+    color: #333;
+}
+
+.form-register .controls {
+    width: 100%;
+    padding: 8px; /* Reducir el relleno interior */
+    margin-bottom: 10px; /* Reducir el margen inferior */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: background-color 0.3s ease;
+}
+
+.form-register .controls:hover {
+    background-color: #e0f7fa; /* Cambia el color de fondo al pasar el ratón */
+}
+
+.form-register .botons {
+    width: 100%;
+    padding: 8px; /* Reducir el relleno interior */
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 14px; /* Reducir el tamaño de la fuente */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-register .botons:hover {
+    background-color: #0056b3; /* Cambia el color de fondo del botón al pasar el ratón */
+}
+
+.form-register h20 {
+    display: block;
+    margin-bottom: 5px; /* Añadir un margen inferior */
+    color: #333;
+    font-size: 14px; /* Reducir el tamaño de la fuente */
+}
+
+
+
+

@@ -1,0 +1,55 @@
+/* archivo: estilos.css */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ccffcc; /* Fondo verde claro */
+}
+
+form {
+    background-color: #ffffff; /* Fondo blanco para el formulario */
+    padding: 40px; /* Aumenta el padding para más espacio interno */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Aumenta el espacio entre los elementos del formulario */
+    text-align: center;
+    width: 400px; /* Aumenta el ancho del formulario */
+}
+
+h2 {
+    margin: 0 0 20px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+    padding: 15px; /* Aumenta el padding para hacer los campos más grandes */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px; /* Aumenta el tamaño de la fuente */
+    transition: transform 0.3s, background-color 0.3s; /* Agrega transición para el efecto */
+}
+
+input[type="text"]:hover,
+input[type="password"]:hover {
+    transform: scale(1.05); /* Aplica zoom al pasar el mouse */
+    background-color: #e0ffe0; /* Cambia el color de fondo al pasar el mouse */
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-size: 16px; /* Aumenta el tamaño de la fuente */
+    transition: background-color 0.3s; /* Agrega transición para el efecto */
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049; /* Cambia el color de fondo al pasar el mouse */
+}

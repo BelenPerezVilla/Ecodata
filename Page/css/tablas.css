@@ -1,0 +1,11 @@
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f2f2f2; /* Color claro para las filas impares */
+    color: #333; /* Color del texto */
+}
+.table-striped tbody tr:nth-of-type(even) {
+    background-color: #ffffff; /* Color blanco para las filas pares */
+    color: #333; /* Color del texto */
+}
+.table-striped tbody tr:hover {
+    background-color: #e0e0e0; /* Color al pasar el ratón por encima de las filas */
+}
